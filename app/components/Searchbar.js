@@ -43,13 +43,25 @@ export default function Searchbar() {
             <div className="dropdown-menu absolute bg-white shadow-lg p-2 top-full right-0 w-40 rounded-lg mt-2 border border-gray-100 z-30">
                 <ul className='text-xs'>
                     <li>
-                        <a onClick={manageType} className='block text-blue-gray-700 px-3 py-2 rounded-md hover:bg-blue-50/80' href="">This is Type 1</a>
+                        <a onClick={manageType} className='block text-blue-gray-700 px-3 py-2 rounded-md hover:bg-blue-50/80' href="">PowerMentis</a>
                     </li>
                     <li>
-                        <a onClick={manageType} className='block text-blue-gray-700 px-3 py-2 rounded-md hover:bg-blue-50/80' href="">This is Type 2</a>
+                        <a onClick={manageType} className='block text-blue-gray-700 px-3 py-2 rounded-md hover:bg-blue-50/80' href="">PowerDocs</a>
                     </li>
                     <li>
-                        <a onClick={manageType} className='block text-blue-gray-700 px-3 py-2 rounded-md hover:bg-blue-50/80' href="">This is Type 3</a>
+                        <a onClick={manageType} className='block text-blue-gray-700 px-3 py-2 rounded-md hover:bg-blue-50/80' href="">OneDrive</a>
+                    </li>
+                    <li>
+                        <a onClick={manageType} className='block text-blue-gray-700 px-3 py-2 rounded-md hover:bg-blue-50/80' href="">Library</a>
+                    </li>
+                    <li>
+                        <a onClick={manageType} className='block text-blue-gray-700 px-3 py-2 rounded-md hover:bg-blue-50/80' href="">Strategy</a>
+                    </li>
+                    <li>
+                        <a onClick={manageType} className='block text-blue-gray-700 px-3 py-2 rounded-md hover:bg-blue-50/80' href="">BD</a>
+                    </li>
+                    <li>
+                        <a onClick={manageType} className='block text-blue-gray-700 px-3 py-2 rounded-md hover:bg-blue-50/80' href="">Experts</a>
                     </li>
                 </ul>
             </div>
