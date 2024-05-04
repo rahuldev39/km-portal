@@ -4,7 +4,7 @@ import Navbar from '../components/navbar/Navbar'
 import FilesUploader from '../components/FilesUploader';
 import ContributionForm from '../components/ContributionForm';
 
-export default function uploadDocument() {
+export default function UploadDocument() {
     const [step,setStep] = useState(1);
     
   return (
