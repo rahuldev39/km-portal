@@ -7,7 +7,7 @@ import { latestUpload, recentSearchData } from "./data/recentSearch";
 export default function Home() {
   return (
     <>
-      <Navbar/>
+      <Navbar navPosition="absolute" navBg='transparent'/>
       <header className="py-36 relative bg-blue-900">
           <img src="./header-bg.png" className="absolute w-full h-full start-0 top-0 object-cover" alt="" />
           <div className="absolute w-full h-full start-0 top-0 bg-gradient-to-r from-[#31399F] to-[#451C89] opacity-85"></div>
